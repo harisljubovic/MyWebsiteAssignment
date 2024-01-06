@@ -1,0 +1,29 @@
+.header-img {
+    padding: 0;
+}
+
+.header-text {
+    top: 4rem;
+    left:2rem;
+    width: 95%;
+}
+
+.header-text p {
+    font-size: 1.5rem;
+    
+}
+
+
+@media (max-width: 600px) {
+    .header-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 1rem;
+        right: 0;
+        top: 3rem;
+    }
+    .header-text p {
+        font-size: 0.9rem;
+    }
+}
